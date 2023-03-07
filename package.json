@@ -1,15 +1,20 @@
 {
-  "name": "teamgenerator",
+  "name": "index-generator",
   "version": "1.0.0",
-  "description": "Generates an index.html webpage to display a team and it's members",
+  "description": "",
   "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
   "scripts": {
-    "test": "node index.js"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mitchell4563/index-generator.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -17,7 +22,6 @@
   },
   "homepage": "https://github.com/mitchell4563/index-generator#readme",
   "dependencies": {
-    "inquirer": "^9.1.4",
-    "jest": "^29.3.1"
+    "inquirer": "^9.1.4"
   }
 }
